@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="İsim soyisim"
+        android:textAlignment="center"
+        android:id="@+id/isim"
+        android:layout_height="20dp"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_below="@id/isim"
+
+        android:layout_margin="10dp"
+        android:src="@drawable/coffe"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/kahvelogosu"
+        android:layout_height="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/maxkahvesayisi"
+        android:layout_toRightOf="@+id/kahvelogosu"
+        android:layout_below="@id/isim"
+        android:layout_margin="10dp"
+
+        android:text="3"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/iv1"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/maxkahvesayisi"
+        android:layout_height="100dp" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_below="@+id/maxkahvesayisi"
+        android:layout_toRightOf="@+id/iv1"
+        android:id="@+id/iv2"
+        android:layout_margin="10dp"
+
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/iv3"
+        android:layout_margin="10dp"
+
+        android:layout_below="@+id/maxkahvesayisi"
+        android:layout_toRightOf="@+id/iv2"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/iv3"
+        android:id="@+id/t"
+        android:layout_centerHorizontal="true"
+        android:text="Falın yorumlanıyor bekle canım "
+        android:layout_height="wrap_content" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_below="@+id/t"
+    android:layout_marginTop="50dp"
+    android:text="oku"
+    android:id="@+id/oku"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content" />
+</RelativeLayout>

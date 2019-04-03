@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/image1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_camera_alt_black_24dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image1"
+                android:layout_centerHorizontal="true"
+                android:text="1"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/image2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:layout_margin="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+
+                android:src="@drawable/ic_camera_alt_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image2"
+                android:layout_centerHorizontal="true"
+                android:text="2"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/image3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+
+                android:background="@color/colorPrimaryDark"
+                android:padding="20dp"
+
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_camera_alt_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image3"
+                android:layout_centerHorizontal="true"
+                android:text="3"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Fal Bakılacak fincan ve tabağın fotoğraflarını çekip falına bakılacak kişinin  bilgilerini girerek devam et"
+        android:textSize="20dp" />
+<TextView
+    android:layout_margin="20dp"
+
+    android:layout_width="wrap_content"
+    android:text="1: Fincanın telvesinin yoğun olduğu kısmı ekle"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="2: Fincanın telvesinin az olduğu kısmı ekle"
+        android:layout_margin="20dp"
+
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="3: Tabağın fotoğrafını ekle
+"        android:layout_margin="20dp"
+
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/sendbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Gönder"
+        android:textColor="#fff" />
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
